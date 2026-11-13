@@ -6,5 +6,6 @@ public interface IClienteDataSource
 {
     Task<ClienteInputDTO?> GetById(Guid id, CancellationToken ct);
     Task<ClienteInputDTO?> GetByEmail(string email, CancellationToken ct);
+    Task<ClienteInputDTO?> GetByCpf(string cpf, CancellationToken ct);
     Task Create(ClienteInputDTO dto, CancellationToken ct);
 }

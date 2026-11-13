@@ -24,6 +24,12 @@ public class ClienteGateway
         return dto is null ? null : Reconstituir(dto);
     }
 
+    public async Task<Cliente?> GetByCpf(string cpf, CancellationToken ct)
+    {
+        var dto = await _dataSource.GetByCpf(cpf, ct);
+        return dto is null ? null : Reconstituir(dto);
+    }
+
     public async Task Create(Cliente cliente, CancellationToken ct)
         => await _dataSource.Create(Serializar(cliente), ct);
 
