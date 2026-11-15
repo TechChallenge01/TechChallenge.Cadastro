@@ -2,6 +2,10 @@
 
 > Fase 4 — FIAP SOAT · Arquitetura de Microsserviços com Saga Pattern
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=TechChallenge01_TechChallenge.Cadastro&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=TechChallenge01_TechChallenge.Cadastro)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=TechChallenge01_TechChallenge.Cadastro&metric=coverage)](https://sonarcloud.io/summary/new_code?id=TechChallenge01_TechChallenge.Cadastro)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=TechChallenge01_TechChallenge.Cadastro&metric=bugs)](https://sonarcloud.io/summary/new_code?id=TechChallenge01_TechChallenge.Cadastro)
+
 Microsserviço responsável pelo **cadastro e autenticação de clientes**, além do gerenciamento de **produtos e categorias** utilizados pelos demais serviços. É o ponto de autenticação do sistema — emite os tokens JWT utilizados em todos os outros serviços.
 
 ---
